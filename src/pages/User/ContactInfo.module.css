@@ -1,0 +1,17 @@
+.contactInfo {
+    display: flex;
+  }
+  
+  .imageContainer {
+    width: 50%;
+  }
+  
+  .infoContainer {
+    padding: 0 15px;
+  }
+  
+  /* Override react-multi-carousel styles */
+  .react-multi-carousel-item {
+    width: 100%;
+  }
+  

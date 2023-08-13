@@ -1,0 +1,60 @@
+.ar-content {
+  height: 80vh;
+  margin-top: 2%;
+  border: 1px solid #65928a88;
+  border-radius: 7px;
+  padding: 2%;
+}
+
+.ar-content .ar-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+  padding: 0;
+}
+
+.ar-content .ar-nav button {
+  font-weight: lighter;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5% 0 5%;
+}
+
+.ar-content .ar-list {
+  height: 95%;
+  border-radius: 10px;
+}
+.navigate {
+  font-family: "Work Sans";
+  text-align: center;
+  text-decoration: none;
+  color: #496360;
+  transition: 0.1s;
+  font-size: 22px;
+}
+.navigate:hover {
+  color: #397f77;
+}
+.link {
+  font-family: "Work Sans";
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.link:hover {
+  color: white;
+}
+.centered-tabs {
+  justify-content: center;
+}
+div.MuiTabs-flexContainer {
+  justify-content: center;
+}
+.custom-select-label {
+  margin-bottom: 0;
+}
+.custom-displayed-rows {
+  margin-bottom: 0;
+}

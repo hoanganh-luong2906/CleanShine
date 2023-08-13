@@ -1,0 +1,133 @@
+.dot {
+  height: 10rem;
+  width: 10rem;
+  background-color: #397f77da;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -100px;
+}
+
+.dot img {
+  max-width: 65%;
+  height: auto;
+}
+
+.container-fluid {
+  display: contents;
+  justify-content: center;
+}
+.card-service {
+  margin-top: 7rem;
+  text-align: center;
+  position: relative;
+  border-radius: 20px !important;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+}
+.card-body {
+  background-color: #ffffff;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-family: "Work Sans";
+  padding-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  color: #015450;
+}
+.card-service p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  text-align: justify;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-inline: 2rem;
+  line-height: 33px;
+}
+.service-container .container .text-center {
+  padding-top: 2%;
+}
+.container-fluid .col .row .card-service {
+  border-radius: 50px !important;
+}
+.col .card-service .card-item {
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 3vh !important;
+  }
+  .card-service p {
+    font-size: 2vh !important;
+    padding-inline: 1rem !important;
+  }
+  .dot {
+    height: 8rem;
+    width: 8rem;
+  }
+}
+@media (max-width: 992px) {
+  .card-title {
+    font-size: 2vh !important;
+  }
+  .card-service p {
+    font-size: 2vh !important;
+    padding-inline: 1rem !important;
+  }
+  .dot {
+    height: 8rem !important;
+    width: 8rem !important;
+  }
+}
+.button {
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #55918a;
+  border-radius: 30px;
+  font-weight: 400;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  overflow: hidden;
+}
+.button p {
+  color: #55918a;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: #55918a;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.button:hover::before {
+  scale: 3;
+}
+.button:hover {
+  color: #55918a;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98, 0.4);
+}
+.button p:hover {
+  color: white;
+  font-weight: 600;
+}
+
+.button:active {
+  scale: 1.2;
+}

@@ -1,0 +1,12 @@
+.bg {
+    background-color: white;
+    color: black;
+    padding: 2%;
+    height: 80vh;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}

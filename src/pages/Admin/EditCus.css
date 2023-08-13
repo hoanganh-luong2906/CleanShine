@@ -1,0 +1,29 @@
+/* HOME PAGE  */
+
+.table-wrapper-scroll-y {
+  display: block;
+}
+.table-emp {
+  padding-left: 20vw;
+  padding-top: 3vw;
+  width: 1450px;
+}
+.item-icon {
+  margin: 0;
+}
+.item-icon img {
+  width: 30px;
+}
+.item-icon img:hover {
+  opacity: 40%;
+}
+
+.table-responsive {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Work Sans";
+}
+.modal {
+  top: 15%;
+}

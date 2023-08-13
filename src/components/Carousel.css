@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../public/assets/fonts/Roboto.ttf);
+}
+
+@font-face {
+    font-family: SourceSerifPro;
+    src: url(../../public/assets/fonts/SourceSerifPro.ttf);
+}
+
+.c-title {
+    font-family: SourceSerifPro !important;
+    padding-bottom: 2%;
+    font-size: 6vw;
+    color: black;
+}
+
+.container .carousel .carousel-inner, .container .carousel img{
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    
+    .c-title {
+        font-size: 3.5vw !important;
+    }
+    /* .container .carousel .carousel-inner, .container .carousel img{
+        border-radius: 40px;
+    } */
+}

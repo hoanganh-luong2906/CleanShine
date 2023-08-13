@@ -1,0 +1,10 @@
+input[type="password"],
+input[type="text"],
+input[type="submit"] {
+  color: #0d0d0d;
+  display: inline-block;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}

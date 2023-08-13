@@ -1,0 +1,51 @@
+/* Benefit.css */
+
+.benefit-container {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.container img {
+  width: 200px;
+}
+
+.benefit-container p {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 33px;
+  text-align: justify;
+  justify-content: center;
+  display: block;
+  padding-inline: 7rem;
+  padding-block-end: 0px;
+  margin-bottom: 0px;
+}
+.text-center{
+  color: #015450;
+  font-family: 'Work Sans';
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+@media (max-width: 768px) {
+  .text-center {
+    font-size: 4vh !important;
+  }
+  .benefit-container p {
+    font-size: 2vh !important;
+    padding-inline: 3vw !important;
+  }
+}
+@media (max-width: 992px) {
+  .benefit-container p {
+    font-size: 2vh !important;
+    padding-inline: 3.5vw !important;
+  }
+  .text-center {
+    font-size: 4vh !important;
+  }
+}

@@ -1,0 +1,83 @@
+
+.admin-container .nav-content li{
+    margin: 4% 0;
+    padding-left: 20%;
+    justify-content: left;
+    font-size: 20px;
+    color: #326e67;
+}
+
+.admin-container .nav-content li:hover {
+    background-color: inherit;
+}
+
+.admin-container .nav-content li a {
+    color: inherit;
+    padding: 0;
+}
+
+.admin-container .nav-content .ad-name {
+    font-size: 28px !important;
+    padding: 0 !important;
+}
+
+.admin-container .nav-content .ad-services {
+    padding: 3% 1.3vw;
+    width: 100% !important;
+}
+
+.admin-container .nav-content .ad-services:hover {
+    background-color: #9DCEC8 !important;
+}
+
+.admin-container .nav-content li .sub-menu  {
+    list-style-type: none;
+    color: rgb(120, 120, 120) !important;
+    height: fit-content;
+    width: 100%;
+}
+
+.admin-container .nav-content li .sub-menu li {
+    font-size: 16px;
+    padding: 1vw 0 !important;
+    width: 100%;
+}
+
+.admin-container .nav-content li .sub-menu li a {
+    color: rgb(120, 120, 120);
+    width: 100%;
+}
+
+.sub-menu {
+    overflow: hidden;
+    animation: fade-in 0.5s ease forwards;
+}
+img.nav-icon {
+    margin-right: 10px;
+}
+.myDrawerClass {
+    border-right: none;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+    border-right: none !important;
+}
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper{
+    width: 220px !important;
+}
+.css-10hburv-MuiTypography-root {
+    font-family: "Montserrat" !important;
+    font-size: 13px !important;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+    to {
+        opacity: 1;
+        max-height: 200px;
+    }
+}
+.css-1ncwxn3-MuiButtonBase-root-MuiListItemButton-root:active{
+    color: #397F77 !important;
+}

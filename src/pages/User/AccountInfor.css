@@ -1,0 +1,37 @@
+.ai-content {
+  height: auto;
+  margin-top: 2%;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 2%;
+}
+
+.ai-content .u-infor .inputter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: fit-content;
+  font-size: 20px;
+}
+
+.ai-content .u-infor input {
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+  border: 1px solid #65928a46;
+  width: 100%;
+  height: 50%;
+  font-family: "Montserrat" ;
+}
+
+.ai-content .u-infor label {
+  font-weight: 600;
+  margin-left: 30px;
+}
+.custom-p {
+  margin-bottom: 0;
+  margin-top: 2%;
+  font-family: "Montserrat";
+}

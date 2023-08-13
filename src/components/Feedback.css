@@ -1,0 +1,43 @@
+.container-feedback img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 23% !important;
+}
+
+.fb-container .fb-content {
+  background-color: #f1fbf6de;
+  border-radius: 30px;
+  padding: 7%;
+  padding-top: 25%;
+  padding-left: 9%;
+  padding-bottom: 10%;
+  box-shadow: 0 3px 6px rgba(177, 195, 199, 0.2),
+    3px 6px 9px rgba(177, 195, 199, 0.2), 6px 9px 12px rgba(177, 195, 199, 0.2),
+    9px 12px 15px rgba(177, 195, 199, 0.2);
+  height: 400px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fb-container .fb-content h3 {
+  font-size: 2vw !important;
+}
+
+.fb-container .fb-content p {
+  font-size: 14px;
+  height: 90%;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Montserrat";
+  padding-bottom: 12%;
+  font-weight: lighter;
+  display: block;
+  text-align: justify;
+}
+.fb-container {
+  margin-top: 1.5rem;
+}
